@@ -2,6 +2,9 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
   }
   
   /* Global styles */
@@ -9,9 +12,6 @@ body, h1, h2, h3, p, ul, li {
     background-color: #222;
     color: #fff;
     font-family: Arial, sans-serif;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
   }
   
   
@@ -64,7 +64,7 @@ body, h1, h2, h3, p, ul, li {
 
   .course {
     cursor: pointer;
-    color: #f57004;
+    color: #fffb00;
   }
   
   .course p {
