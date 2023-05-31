@@ -24,6 +24,7 @@ header {
 nav ul {
   list-style-type: none;
   display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
 }
 
 nav ul li {
@@ -46,7 +47,7 @@ footer {
   text-align: center;
   font-size: 0.8em;
   margin-top: auto;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100%;
 }
